@@ -24,7 +24,7 @@
         <!-- Footer -->
         <footer id="footer">
             <p class="copyright">
-                Copyright &copy; {{ date('Y') }} Reviste stiintifice
+                Copyright &copy; {{ date('Y') }} Informatii Studenti
 
             </p>
         </footer>

@@ -1,6 +1,29 @@
 @extends('admin.template-forms')
 
 @section('content')
+<div class="bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+</div>
+<link rel="stylesheet" href="/front/css/bubble.css">
     <main>
         <div class="container">
             <div class="row justify-content-center">
@@ -56,4 +79,5 @@
             </div>
         </div>
     </main>
+
 @endsection

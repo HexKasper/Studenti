@@ -123,7 +123,9 @@ Route::get('clear-cache', function () {
 
     return "Cache is cleared";
 });
-
+Route::get('/test-online', function () {
+    dd('i am online ^_^');
+});
 
 
 require __DIR__ . '/auth.php';

@@ -3,22 +3,34 @@
       <h2>Featured Posts</h2>
     </div>
     <div class="owl-carousel owl-theme">
-      <a href="#">
+      <a href="{{ url('/category/tiin-e') }}">
         <div class="featured-item">
-          <img src="assets/images/featured_post_01.jpg" alt="featured one">
-          <p>Aliquam egestas convallis eros sed gravida. Curabitur consequat sit.</p>
+          <img src="front/assets/images/categorii/stiinte.png" alt="featured one">
+          <p>Informatii despre studentii de la Facultatea de Stiinte</p>
         </div>
       </a>
-      <a href="#">
+      <a href="{{ url('/category/litere') }}">
         <div class="featured-item">
-          <img src="assets/images/featured_post_01.jpg" alt="featured two">
-          <p>Donec a scelerisque massa. Aliquam non iaculis quam. Duis arcu turpis.</p>
+          <img src="front/assets/images/categorii/litere.png" alt="featured two">
+          <p>Informatii despre studentii de la Facultatea de Litere</p>
         </div>
       </a>
-      <a href="#">
+      <a href="{{ url('/category/inginerie') }}">
         <div class="featured-item">
-          <img src="assets/images/featured_post_01.jpg" alt="featured three">
-          <p>Suspendisse ac convallis urna, vitae luctus ante. Donec sit amet.</p>
+          <img src="front/assets/images/categorii/inginerie.png" alt="featured three">
+          <p>Informatii despre studentii de la Facultatea de Inginerie</p>
+        </div>
+      </a>
+      <a href="{{ url('/category/tiin-e-economice') }}">
+        <div class="featured-item">
+          <img src="front/assets/images/categorii/stiinte_economice.png" alt="featured four">
+          <p>Informatii despre studentii de la Facultatea de Stiinte Economice</p>
+        </div>
+      </a>
+      <a href="{{ url('/category/tiin-e-ale-mi-c-rii-sportului-i-s-n-t-ii') }}">
+        <div class="featured-item">
+          <img src="front/assets/images\categorii/sport.png" alt="featured five">
+          <p>Informatii despre studentii de la Facultatea de Științe ale Mișcării, Sportului și Sănătății</p>
         </div>
       </a>
     </div>

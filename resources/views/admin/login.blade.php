@@ -3,6 +3,29 @@
 @section('title', 'Formular logare')
 
 @section('content')
+<div class="bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+</div>
+<link rel="stylesheet" href="/front/css/bubble.css">
     <main>
         <div class="container">
             <div class="row justify-content-center">
@@ -45,9 +68,11 @@
                             <div class="small"><a href="{{ route('register') }}">Need an account? Sign up!</a></div>
                             <a class="small" href="{{ route('password.request') }}">Forgot Password?</a>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
 @endsection
